@@ -82,6 +82,9 @@ a{
 	color: white !important;
 	background-color: #56ab2f !important;
 }
+.no-radius{
+	border-radius: 0 !important;
+}
 /********************************************************************************
 								Common CSS End
 *********************************************************************************/
@@ -112,6 +115,32 @@ a{
 /********************************************************************************
 								TopBar CSS End
 *********************************************************************************/
+/********************************************************************************
+								Owl Start
+*********************************************************************************/
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 45%;
+	font-size: 48px;
+	color: #c7c7c7;
+}
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
+	background-color: transparent;
+	color: #56ab2f !important;
+}
+.owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus{
+	border: transparent !important;
+	outline: transparent !important;
+}
+.owl-carousel .owl-nav button.owl-next{
+	right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: -5%;
+}
+/*********************************************************************************
+								Owl End
+**********************************************************************************/
 /********************************************************************************
 								Header CSS Start
 *********************************************************************************/
@@ -187,8 +216,46 @@ a{
 /********************************************************************************
 								Course CSS Start
 *********************************************************************************/
-
-
+.active_card:hover{
+	border-color: #56ab2f !important;
+}
+.custom_body{
+	padding: 0px !important;
+	padding-top: 10px !important;
+	/*border: 1px solid #d2d2d2 !important;*/
+	border-top: transparent !important;
+}
+.border_btrn{
+	width: 135px;
+	border-bottom: 2px solid #c7c7c7;
+	margin-left: 115px;
+}
+.course-list{
+	margin-bottom: 0px !important;
+}
+.course-list li{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #d2d2d2;
+	border-collapse: collapse;
+	width: 120px;
+	text-align: center;
+	border-bottom: transparent;
+}
+.course-list li:nth-child(1){
+	border-left:transparent;
+}
+.course-list li:nth-child(2){
+	width: 210px;
+	background-color: #56ab2f !important;
+	border-left:transparent;
+	border-right: transparent;
+}
+.course-list li:nth-child(3){
+	border-right:transparent;
+}
 /********************************************************************************
 								Course CSS End
 *********************************************************************************/
