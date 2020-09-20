@@ -34,6 +34,9 @@ a{
 	text-decoration: none;
 	color: #f1f1f1;
 }
+::placeholder{
+	color: white;
+}
 /********************************************************************************
 								Base CSS End
 *********************************************************************************/
@@ -87,6 +90,9 @@ a{
 }
 .c_font_family{
 	font-family: 'Lora', serif;
+}
+.z-index-0{
+	z-index: -111;
 }
 /********************************************************************************
 								Common CSS End
@@ -279,24 +285,92 @@ a{
 /********************************************************************************
 								Blog CSS Start
 *********************************************************************************/
-
-
+.c_btn{
+	color:black;
+	font-weight: 700;
+}
+.c_btn:hover{
+	text-decoration: none;
+}
 /********************************************************************************
 								Blog CSS End
 *********************************************************************************/
 /********************************************************************************
 								Testimonial CSS Start
 *********************************************************************************/
-
-
+.testimonial{
+	background: url(../img/home/test.png);
+}
+.test-img{
+	max-width: 100px;
+	margin-left: 35%;
+	margin-bottom: -12%;
+}
+.card_border{
+	border: 20px solid transparent;
+	border-image: url(../img/home/border.png) 60% round;
+	border-top: none;
+}
 /********************************************************************************
 								Testimonial CSS End
 *********************************************************************************/
 /********************************************************************************
+								News Letter Css Start
+*********************************************************************************/
+.email{
+	padding: 10px;
+	width: 30%;
+	background: transparent;
+	border: 1px solid #fff !important;
+	color: white;
+	font-size: 16px;
+}
+.email:focus{
+	outline: none;
+}
+.test_btn{
+	background: #fff;
+	color: #000;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	border: 2px solid rgba(255,255,254,.3);
+}
+/********************************************************************************
+								News Letter Css End
+*********************************************************************************/
+/********************************************************************************
 								Footer CSS Start
 *********************************************************************************/
-
-
+.footer{
+	background: #000;
+}
+.footer-link{
+	padding-top: 15px !important;
+}
+/*.footer-link li{
+	text-align: center;
+}*/
+.footer-link li span{
+	font-size: 18px;
+	color: #56ab2f !important;
+}
+.no-padding-margin{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.footer-bottom{
+	border-top:1px solid #56ab2f !important;
+}
+.footer-icon li{
+	/*padding: 10px;*/
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border: 1px solid white;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 5px;
+}
 /********************************************************************************
 								Footer CSS End
 *********************************************************************************/
